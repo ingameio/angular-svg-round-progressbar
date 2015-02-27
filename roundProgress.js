@@ -89,7 +89,7 @@ angular.module('angular-svg-round-progress', [])
                     color:      "@",
                     bgcolor:    "@",
                     stroke:     "@",
-                    iterations: "@"
+                    iterations: "="
                 },
                 link: function (scope, element, attrs) {
                     var ring        = element.find('path'),
